@@ -4,11 +4,12 @@ function FlipCard(props) {
     return (
         <div className="flip-card" tabIndex="0">
           <div className="flip-card-inner">
-            <div className="flip-card-front">
+            <div className="flip-card-front card shadow" >
               <h3 className={props.typo}>{props.frontContent}</h3>
             </div>
-            <div className="flip-card-back">
-              <h3>{props.backContent}</h3>
+            <div className="flip-card-back center card shadow">
+              <h4 className='font'>{props.backContent}</h4>
+              <img src={props.backImage} alt="stack" />
             </div>
           </div>
         </div>
