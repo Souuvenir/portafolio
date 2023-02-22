@@ -12,7 +12,7 @@ const MyComponent = (props) => {
         mouseControls: true,
         touchControls: true,
         gyroControls: false,
-        minHeight: 700.00,
+        minHeight: 500.00,
         minWidth: 1800.00,
         scale: 0.5,
         scaleMobile: 1.00,

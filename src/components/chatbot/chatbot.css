@@ -1,0 +1,41 @@
+.font{
+    font-family: "serenity", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.chatbot-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 400px;
+    height: 500px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .chatbot-container.minimized {
+    height: 50px;
+    overflow: hidden;
+  }
+  
+  .chatbot-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    width: 50px;
+    height: 50px;
+    background-color: #483F59;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .chatbot-button.minimized {
+    width: 30px;
+    height: 30px;
+  }

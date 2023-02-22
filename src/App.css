@@ -16,7 +16,7 @@
     top: 280px;
     right: 399px;
 }
-.font{
+.fontn{
     gap: 50px;
     font-family: elza,sans-serif;
     font-weight: 400;
@@ -119,7 +119,6 @@
   background-color:#BCA2F2;
   color: #483F59;
   text-align: center;
-  padding: 1rem;
 }
 .center{
   display: grid;

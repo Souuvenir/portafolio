@@ -13,6 +13,7 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-scroll-to-element": "^0.2.0",
+    "react-simple-chatbot": "^0.6.1",
     "vanta": "^0.5.24",
     "web-vitals": "^2.1.4"
   },
